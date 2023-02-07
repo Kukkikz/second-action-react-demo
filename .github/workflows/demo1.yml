@@ -4,13 +4,13 @@ on:
     types:
       - opened
     branches:
-      - main
+      - master
       - 'dev-*' # not support / e.g. dev-new dev-this-is-new
       - 'feat/**' # support all e.g. feat/new feat/new/button
   workflow_dispatch:
   push:
     branches:
-      - main
+      - master
       - 'dev-*' # not support / e.g. dev-new dev-this-is-new
       - 'feat/**' # support all e.g. feat/new feat/new/button
       # developer-1 does not trigger this workflow
